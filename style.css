@@ -3,6 +3,7 @@
     --dark-blue:#0F4E6D;
     --footer:#C9EEFF;
     --base-blue:#F2FBFF;
+    --plans-blue:#197EAF;
 }
 *{
     box-sizing:border-box;
@@ -99,4 +100,51 @@ main{
     font-weight: 300;
     font-style: italic;
     color:var(--dark-blue);
+    margin-bottom: 13px;
+}
+.main-plans-container--boxes{
+    width:70%;
+    min-width: 154px;
+    max-width: 228px;
+    height: 200px;
+    margin: 0 auto; /*ayuda a centrar*/
+}
+.main-plans-container--container{
+    width:70%;
+    min-width: 154px;
+    max-width: 228px;
+    height: 140px;
+    margin: 0 auto;
+    border: 1px solid #DAECF4;
+    border-radius: 0px 0px 23px 23px;
+}
+.main-plans-container--boxes h3{
+    width:154px;
+    height: 52px;
+    background-color: var(--blue-sonored);
+    border-radius: 23px 23px 0px 0px;
+    margin: 0 auto;
+    /* texto */
+    padding:8px 23px;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+    font-style: italic;
+    color:#fff;
+}
+.main-plans-container--boxes-light{
+    width:67px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: 300;
+    color: var(--plans-blue);
+    margin:0 auto;
+}
+.main-plans-container--boxes-bold{
+    width:118px;
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+    font-weight: 500;
+    color: var(--plans-blue);
+    margin:0 auto;
 }
